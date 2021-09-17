@@ -23,14 +23,28 @@ header h1{
     margin-left: 88px;
 }
 
-section{
+.primera{
     float: left;
     width: 30%;
     margin-top: 17%;
-    margin-left: 17%;
+    margin-left: 16%;
 }
 
-img{
+.imagen1{
+    float: right;
+    margin-top: 12%;
+    margin-right: 13%;
+    width: 34%;
+}
+
+.imagen2{
+    float: left;
+    width: 30%;
+    margin-top: 17%;
+    margin-left: 16%;
+}
+
+.segunda{
     float: right;
     margin-top: 12%;
     margin-right: 13%;
@@ -46,10 +60,17 @@ h2{
     font-weight: 600;
     font-family: 'Noto Sans JP', sans-serif;
     color: rgba(0, 0, 0, 0.753);
+    padding-left: 2%;
 }
 
 .primer_subTitulo{
-    color: rgba(240, 17, 54, 0.842);
+
+    background: linear-gradient(45deg, rgb(250,74,84), rgb(219,4,111)40% );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+    
 }
 
 section p{
@@ -57,10 +78,15 @@ section p{
     width: 108%;
     font-weight: 600;
     line-height: 160%;
+    padding-left: 3%;
 }
 
 .boton1{
-    background-color: red;
+    background-color: rgb(253,76,92);
     border-radius: 34px;
-    padding: 3% 6%;
+    padding: 3% 10%;
+    border:rgb(253,76,92);
+    color: white;
+    margin-top: 6%;
+    font-size: 120%;
 }
