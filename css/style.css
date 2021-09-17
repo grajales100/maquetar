@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: url(../images/angel-jimenez.jpg);
+    background-size: cover;
+    height: 650px;
+    padding-top: 346px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header h1{
+    font-size: 206px;
+    color: white;
+    text-align: center;
+    margin-left: 88px;
+}
+
+section{
+    float: left;
+    width: 30%;
+    margin-top: 17%;
+    margin-left: 17%;
+}
+
+img{
+    float: right;
+    margin-top: 12%;
+    margin-right: 13%;
+    width: 34%;
+}
+
+.clear{
+    clear: both;
+}
+
+h2{
+    font-size: 447%;
+    font-weight: 600;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.primer_subTitulo{
+    color: rgba(240, 17, 54, 0.842);
+}
+
+section p{
+    font-size: 133%;
+    width: 108%;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.boton1{
+    background-color: red;
+    border-radius: 34px;
+    padding: 3% 6%;
+}
