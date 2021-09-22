@@ -39,8 +39,8 @@ header h1{
 
 .imagen2{
     float: left;
-    width: 30%;
-    margin-top: 17%;
+    width: 34%;
+    margin-top: 7%;
     margin-left: 16%;
 }
 
@@ -68,14 +68,24 @@ h2{
     background: linear-gradient(45deg, rgb(250,74,84), rgb(219,4,111)40% );
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
-    
-    
+    color: transparent;      
+}
+
+.never{
+    width: 105%;
 }
 
 section p{
     font-size: 133%;
     width: 108%;
+    font-weight: 600;
+    line-height: 160%;
+    padding-left: 3%;
+}
+
+.segundotexto {
+    font-size: 133%;
+    width: 97%;
     font-weight: 600;
     line-height: 160%;
     padding-left: 3%;
@@ -90,3 +100,47 @@ section p{
     margin-top: 6%;
     font-size: 120%;
 }
+
+.tercera{
+    float: right;
+    margin-top: 12%;
+    margin-right: 13%;
+    width: 34%;
+    color: white;
+}
+
+.espalda{
+    background:url(../images/john-raptis.png) ;
+    background-size: cover;
+    height: 783px;
+}
+
+.final{
+    color: white;
+}
+
+footer{
+    background-color:rgb(253,76,92);
+    color: white;
+}
+
+.filas p{
+    margin-right: 10%;
+    display: inline;
+}
+
+.filas{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.sola{
+    margin-left: 18%;
+    width: 3%;
+}
+
+.filas1 p{
+    margin-right: 10%;
+    display: inline;
+}
+
