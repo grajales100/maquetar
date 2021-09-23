@@ -113,6 +113,8 @@ section p{
     background:url(../images/john-raptis.png) ;
     background-size: cover;
     height: 783px;
+    margin-top:10% ;
+    
 }
 
 .final{
@@ -120,27 +122,60 @@ section p{
 }
 
 footer{
+    padding-top: 5%;
     background-color:rgb(253,76,92);
     color: white;
+    padding-left: 17%;
+    padding-right: 17%;
 }
 
-.filas p{
-    margin-right: 10%;
-    display: inline;
+footer p{
+    margin-top: 5%;
 }
 
-.filas{
-    padding-top: 5%;
-    padding-bottom: 2%;
+.filas1{
+    float: left;
+    margin-bottom: 3%;
+    margin-right: 12%;
 }
 
-.sola{
-    margin-left: 18%;
-    width: 3%;
+.filas2{
+    float: left;
+    margin-right: 12%;
 }
 
-.filas1 p{
-    margin-right: 10%;
-    display: inline;
+.filas3{
+    float: left;
+    margin-right: 12%;
 }
+
+.filas4{
+    float: left;
+    margin-right: 12%;
+}
+.filas4 p{
+    margin-top: 10%;
+}
+
+.correo{
+    float: right;
+}
+
+.copi{
+    float: left;
+}
+
+.borde{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top: 1px solid rgba(255, 255, 255, 0.335);
+}
+.no{
+    margin-top: 0;
+}
+
+.borde p{
+    margin-top: 2%;
+}
+
 
