@@ -113,6 +113,8 @@ section p{
     background:url(../images/john-raptis.png) ;
     background-size: cover;
     height: 783px;
+    margin-top:10% ;
+    
 }
 
 .final{
@@ -120,27 +122,148 @@ section p{
 }
 
 footer{
+    padding-top: 5%;
     background-color:rgb(253,76,92);
     color: white;
+    padding-left: 17%;
+    padding-right: 17%;
 }
 
-.filas p{
-    margin-right: 10%;
-    display: inline;
+footer p{
+    margin-top: 5%;
 }
 
-.filas{
-    padding-top: 5%;
-    padding-bottom: 2%;
+.filas1{
+    float: left;
+    margin-bottom: 3%;
+    margin-right: 12%;
 }
 
-.sola{
-    margin-left: 18%;
-    width: 3%;
+.filas2{
+    float: left;
+    margin-right: 12%;
 }
 
-.filas1 p{
-    margin-right: 10%;
-    display: inline;
+.filas3{
+    float: left;
+    margin-right: 12%;
 }
 
+.filas4{
+    float: left;
+    margin-right: 12%;
+}
+.filas4 p{
+    margin-top: 10%;
+}
+
+.correo{
+    float: right;
+}
+
+.copi{
+    float: left;
+}
+
+.borde{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top: 1px solid rgba(255, 255, 255, 0.335);
+}
+.no{
+    margin-top: 0;
+}
+
+.borde p{
+    margin-top: 2%;
+}
+
+
+@media (max-width:750px) {
+    header{
+        padding-top: 17%;
+        width: 100%;
+        height: 250px;
+        background-size: 100%;
+    }
+    header h1{
+        font-size: 80px;
+        margin-right: 5%;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+    .espalda{
+        width: 100%;
+        height: 435px;
+        margin-top:0%;
+        background-size: 145%;   
+    }
+
+    .tercera{
+        float: none;
+        margin-top: 4%;
+        margin-left: 3%;
+        width: 90%;
+        color: white;
+    }
+    .primera{
+        float: none;
+        margin-top: 4%;
+        margin-left: 3%;
+        width: 85%;
+    }
+    .segunda{
+        float: none;
+        margin-top: 4%;
+        margin-left: 3%;
+        width: 90%;
+    }
+    .imagen1{
+        float: none;
+        margin-left: 30%;
+        margin-top: 5%;
+        width: 40%;
+    }
+    .imagen2{
+        float: none;
+        margin-left: 30%;
+        margin-top: 5%;
+        width: 40%;
+    }
+
+    footer{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+}
+
+@media (max-width:576px) {
+    header{
+        height: 220px;
+    }
+    .primera{
+        width: 80%;
+        text-align: justify;
+    }
+
+    .segunda{
+        text-align: justify;
+    }
+
+    .espalda{
+        height: 445px;
+        background-size: 190%;   
+    }
+
+    .filas1, .filas2, .filas3, .filas4{
+        margin-left: 0%;
+        margin-right: 7%;
+    }
+    .filas1{
+        margin-left: 4%;
+    }
+}
