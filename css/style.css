@@ -179,3 +179,91 @@ footer p{
 }
 
 
+@media (max-width:750px) {
+    header{
+        padding-top: 17%;
+        width: 100%;
+        height: 250px;
+        background-size: 100%;
+    }
+    header h1{
+        font-size: 80px;
+        margin-right: 5%;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+    .espalda{
+        width: 100%;
+        height: 435px;
+        margin-top:0%;
+        background-size: 145%;   
+    }
+
+    .tercera{
+        float: none;
+        margin-top: 4%;
+        margin-left: 3%;
+        width: 90%;
+        color: white;
+    }
+    .primera{
+        float: none;
+        margin-top: 4%;
+        margin-left: 3%;
+        width: 85%;
+    }
+    .segunda{
+        float: none;
+        margin-top: 4%;
+        margin-left: 3%;
+        width: 90%;
+    }
+    .imagen1{
+        float: none;
+        margin-left: 30%;
+        margin-top: 5%;
+        width: 40%;
+    }
+    .imagen2{
+        float: none;
+        margin-left: 30%;
+        margin-top: 5%;
+        width: 40%;
+    }
+
+    footer{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+}
+
+@media (max-width:576px) {
+    header{
+        height: 220px;
+    }
+    .primera{
+        width: 80%;
+        text-align: justify;
+    }
+
+    .segunda{
+        text-align: justify;
+    }
+
+    .espalda{
+        height: 445px;
+        background-size: 190%;   
+    }
+
+    .filas1, .filas2, .filas3, .filas4{
+        margin-left: 0%;
+        margin-right: 7%;
+    }
+    .filas1{
+        margin-left: 4%;
+    }
+}
